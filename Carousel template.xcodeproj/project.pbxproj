@@ -16,6 +16,7 @@
 		386ECCDD1F47A062002D8BC7 /* Carousel_templateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386ECCDC1F47A062002D8BC7 /* Carousel_templateTests.swift */; };
 		386ECCE81F47A062002D8BC7 /* Carousel_templateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386ECCE71F47A062002D8BC7 /* Carousel_templateUITests.swift */; };
 		386ECCF81F47A185002D8BC7 /* IndividualViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386ECCF71F47A185002D8BC7 /* IndividualViewCell.swift */; };
+		386ECCFA1F47AB60002D8BC7 /* CarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386ECCF91F47AB60002D8BC7 /* CarouselFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		386ECCE71F47A062002D8BC7 /* Carousel_templateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel_templateUITests.swift; sourceTree = "<group>"; };
 		386ECCE91F47A062002D8BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		386ECCF71F47A185002D8BC7 /* IndividualViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualViewCell.swift; sourceTree = "<group>"; };
+		386ECCF91F47AB60002D8BC7 /* CarouselFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		386ECCF61F47A07C002D8BC7 /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
+				386ECCF91F47AB60002D8BC7 /* CarouselFlowLayout.swift */,
 			);
 			name = Layouts;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				386ECCCD1F47A062002D8BC7 /* Carousel_template.xcdatamodeld in Sources */,
 				386ECCC71F47A062002D8BC7 /* CarouselViewController.swift in Sources */,
+				386ECCFA1F47AB60002D8BC7 /* CarouselFlowLayout.swift in Sources */,
 				386ECCC51F47A062002D8BC7 /* AppDelegate.swift in Sources */,
 				386ECCF81F47A185002D8BC7 /* IndividualViewCell.swift in Sources */,
 			);
@@ -527,6 +531,7 @@
 				386ECCEE1F47A062002D8BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		386ECCEF1F47A062002D8BC7 /* Build configuration list for PBXNativeTarget "Carousel templateTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +540,7 @@
 				386ECCF11F47A062002D8BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		386ECCF21F47A062002D8BC7 /* Build configuration list for PBXNativeTarget "Carousel templateUITests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +549,7 @@
 				386ECCF41F47A062002D8BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
