@@ -10,4 +10,5 @@ import UIKit
 
 class IndividualViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var greetingLabel: UILabel!
 }

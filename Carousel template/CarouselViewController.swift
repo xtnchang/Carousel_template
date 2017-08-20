@@ -32,6 +32,8 @@ class CarouselViewController: UIViewController, UICollectionViewDataSource {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "IndividualViewCell", for: indexPath) as! IndividualViewCell
         
+        cell.greetingLabel.text = "Hello"
+        
         return cell
     }
 }

@@ -38,9 +38,24 @@
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="301" height="287"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPT-Ds-uPZ">
+                                                    <rect key="frame" x="129" y="133" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </view>
                                         <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.94999999999999996"/>
+                                        <constraints>
+                                            <constraint firstItem="XPT-Ds-uPZ" firstAttribute="centerX" secondItem="ZIK-ul-X0O" secondAttribute="centerX" id="Au5-Lf-itQ"/>
+                                            <constraint firstItem="XPT-Ds-uPZ" firstAttribute="centerY" secondItem="ZIK-ul-X0O" secondAttribute="centerY" id="woe-ct-ahV"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="greetingLabel" destination="XPT-Ds-uPZ" id="Gaz-Be-m0I"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
